@@ -124,6 +124,7 @@ color: #384A62;
 .thirdcontent{
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .image1{
   margin-top: 110px;
@@ -153,12 +154,7 @@ input{
   align-self: center;
   padding-left: 35px;
 }
-.thirdcontent{
-  padding-top: 30px;
-  justify-content: space-between;
-  margin-right: 60px;
-  margin-bottom: -25px;
-}
+
 .h33{
   margin-left: 57px;
   margin-top: 25px;
@@ -172,16 +168,8 @@ input{
   color: #D77F81;
   font-weight: 600;
 }
-.img1content{
-  margin-top: -5px;
-  display: inline-block;
-  margin-right: 30px;
-}
-.img1{
-  display: inline-block;
-  padding-left: 35px;
-  padding-top: 40px;
-}
+
+
 .two:hover{
 transform: scale(1.02);
 }
@@ -202,42 +190,8 @@ transform: scale(1.02);
 .g3:hover {
   transform: scale(1.02);
 }
-.fourthcontent{
-  justify-content: space-around;
-  display: flex;
-  margin-top: -4px;
-}
-.box1{
-  border: solid rgb(250, 248, 248);
-  height: 250px;
-  width: 250px;
-  margin-left: -0.3cm;
-  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425)
-  z-index: 1000;
-}
-.box2 {
-  border:  solid rgb(250, 248, 248);
-  height: 250px;
-  width: 270px;
-  margin-left: -1.3cm;
-  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425)
-}
-.box3 {
-  border: solid rgb(250, 248, 248);
-  height: 250px;
-  width: 285px;
-  margin-left: -1.5cm;
-  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425)
-  z-index: 1000;
-}
-.box4 {
-  border: solid rgb(250, 248, 248);
-  height: 250px;
-  width: 270px;
-  margin-left: -55px;
-  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425)
-  z-index: 1000;
-}
+
+
 .slot{
   font-size: 16px;
   color:#384A62 ;
@@ -297,11 +251,7 @@ span{
   border-radius: 4px;
   margin-left: 20px;
 }
-.img1conten{
-  margin-top: -5px;
-  display: inline-block;
-  margin-left: 30px;
-}
+
 .twoo:hover {
   transform: scale(1.02);
 }
@@ -320,38 +270,7 @@ span{
 .gg2:hover {
   transform: scale(1.02);
 }
-.box11 {
-  border: solid rgb(250, 248, 248);
-  height: 250px;
-  width: 250px;
-  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425);
 
-}
-
-.box22 {
-  border: solid rgb(250, 248, 248);
-  height: 250px;
-  width: 275px;
-  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425);
-  margin-left: -2.9cm;
-  
-}
-
-.box33 {
-  border: solid rgb(250, 248, 248);
-  height: 250px;
-  width: 283px;
-  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425);
-  margin-left: -2.8cm;
-  
-}
-.fourthconten {
-  justify-content: space-around;
-  display: flex;
-  margin-top: -4px;
-  margin-left: -1cm;
-  padding-right: 7.3cm;
-}
 .hh4{
   margin-top: 90px;
   font-size: 20px;
@@ -408,4 +327,104 @@ h4{
 .sec{
   height: 280px;
     width: 100%;
+}
+.cardholder{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.cardholderr {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 54px;
+}
+.firstcard{
+  height: 450px;
+  width: 254px;
+  border: 2px solid rgb(250, 248, 248);
+  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425);
+}
+.secondcard {
+  height: 450px;
+  width: 273px;
+  border: 2px solid rgb(250, 248, 248);
+  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425);
+}
+.thirdcard {
+  height: 450px;
+  width: 290px;
+  border: 2px solid rgb(250, 248, 248);
+  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425);
+}
+.fourthcard {
+  height: 450px;
+  width: 273px;
+  border: 2px solid rgb(250, 248, 248);
+  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425);
+}
+
+.cardholder2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-right: 7cm;
+}
+.secondcardd {
+  height: 450px;
+  width: 275px;
+  border: 2px solid rgb(250, 248, 248);
+  box-shadow: 1px 1px 1px rgba(215, 210, 210, 0.425);
+}
+.cardholder3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-right: 5cm ;
+  margin-left: 20px;
+}
+@media (max-width: 425px) {
+  . {
+    display: none;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .head {
+    display: none;
+  }
+
+  .cardholder {
+    display: block;
+  }
+
+  .cardholder2 {
+    display: block;
+  }
+
+  .cardholderr {
+    display: block;
+  }
+
+  .second-content {
+    display: none;
+  }
+
+  .cardholder3 {
+    display: block;
+  }
+
+  .num {
+    display: inline;
+  }
+
+  .pic {
+    width: 100%;
+    height: auto;
+  }
+}
+.thirdcontent{
+  width: 100%;
+  height: auto;
 }
