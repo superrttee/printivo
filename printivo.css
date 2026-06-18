@@ -304,22 +304,21 @@ h4{
   object-fit: contain;
 }
 .sect{
-  height: 280px;
+  height: auto;
   width: 100%;
   background-color: #EDF6FD;
   margin-top: 60px;
+  padding: 60px 50px;
 }
 .customers{
   font-size: 20px;
-  font-weight: 400px;
+  font-weight: 400;
   color: #384A62;
-  padding-top: 50px;
-  padding-left: 45px;
+  padding-bottom: 20px;
 }
 .container{
   width: 100%;
   height: auto;
-  min-height: 150px;
   background-color: transparent;
   color: #384A62;
 }
@@ -357,11 +356,13 @@ h4{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  margin: 20px 50px 0 50px;
+  margin-top: 20px;
+  width: 100%;
 }
 .sec{
-  height: 280px;
-    width: 100%;
+  height: auto;
+  width: 100%;
+  padding: 80px 50px;
 }
 .cardholder, .cardholderr, .cardholder2, .cardholder3 {
   display: grid;
@@ -393,10 +394,13 @@ h4{
 
 .svgg{
   display: flex;
+  align-items: flex-start;
+  gap: 15px;
 }
 .svg{
-  margin-top: 30px;
-  padding: 10px;
+  margin-top: 0;
+  padding: 0;
+  flex-shrink: 0;
 }
 
 .work{
@@ -440,7 +444,7 @@ h4{
     }
 
 .footer {
-    background: #575757;
+    background: #384A62;
     width: 100%;
 }
 
@@ -697,13 +701,14 @@ h4{
 
   .sect {
     height: auto;
-    padding-bottom: 40px;
+    padding: 40px 20px;
   }
 
   .customers {
     padding-left: 0;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 0;
+    padding-bottom: 15px;
   }
 
   .cost {
@@ -722,7 +727,7 @@ h4{
 
   .sec {
     height: auto;
-    padding-bottom: 40px;
+    padding: 40px 20px;
   }
 
   .svgg {
@@ -857,5 +862,6 @@ h4{
     transform: translateY(0);
   }
 }
+
 
 
